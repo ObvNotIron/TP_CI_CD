@@ -4,6 +4,7 @@ push:
 branches: [ "main" ]
 jobs:
 deploy:
+needs: ci
 runs-on: ubuntu-latest
 steps:
 - name: Récupération du code
